@@ -1,0 +1,883 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1299AD020B47B980545C33B6 /* Pods_TestMarsSwinJectProject.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0B0F455A4556D391F07A6B29 /* Pods_TestMarsSwinJectProject.framework */; };
+		167F329618160FE88B9F0A66 /* EarthRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 028CD950BE4E3BDFEB1B3596 /* EarthRouter.swift */; };
+		1DA8A11C3DC66C80F4726312 /* EarthRouterProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9CD2A2AA658CCFF0961F4D9 /* EarthRouterProtocol.swift */; };
+		37288C78C7DDBDD09DAEE3D4 /* EarthPresenterProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81FACD80C2EFABECB5453254 /* EarthPresenterProtocol.swift */; };
+		3A6E5A52E7D34D9A342B10EA /* MainModuleRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46B88893E1AAF9521CDB8DC3 /* MainModuleRouter.swift */; };
+		3DAF35F846E9FEF465D63A2D /* MainModulePresenterProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC9DB6F2B7A3E479CFAD6480 /* MainModulePresenterProtocol.swift */; };
+		3DF1274241D27B8B8CA10132 /* marsRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10F7C071C3BADF0CC3D818D5 /* marsRouter.swift */; };
+		433414EF749371D834271E60 /* EarthConfigurator.swift in Sources */ = {isa = PBXBuildFile; fileRef = E900075633DD936B545F5702 /* EarthConfigurator.swift */; };
+		49207FD9A2A143DF19A8E342 /* EarthViewProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5EBB601502A4CB7BA2C4D59 /* EarthViewProtocol.swift */; };
+		4B93CEC81ADD65426746E549 /* MainModulePresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB9F25D5B68E920DEFBD2969 /* MainModulePresenter.swift */; };
+		4C17070C8E559C655F4FFF3C /* MainModuleViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3B65A2DEF3EE552F0D318973 /* MainModuleViewController.xib */; };
+		5089DAA67AE978DA487D9943 /* marsRouterProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 960F36F270AA050E83F9AC30 /* marsRouterProtocol.swift */; };
+		53C0CB6BB04EEAF4D1CA7586 /* EarthInteractorProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = C429B3EF8BFFED69CDC2A893 /* EarthInteractorProtocol.swift */; };
+		78FC16F27C6A76FFFAA7C07F /* marsInteractorProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5512A7B9BC6CBAADA007440 /* marsInteractorProtocol.swift */; };
+		7CF5D1C13F14EBB5E5F17D50 /* EarthViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD793015B3BB6236E0166D8F /* EarthViewController.swift */; };
+		8B3F78F16C41A069ACB4E6F8 /* MainModuleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBAE1C957FDCCF1EF2883598 /* MainModuleViewController.swift */; };
+		8BF3A6F57D54094FDD85DF6E /* marsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B581B77AAC61F914949470B4 /* marsViewController.swift */; };
+		8F8D06EA1734E95D99F81416 /* MainModuleConfigurator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 114792939983C45A8E8FF60C /* MainModuleConfigurator.swift */; };
+		AC3C07FDC8FAD9E59B03F362 /* MainModuleInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 944EA70B19240A691B409D3F /* MainModuleInteractor.swift */; };
+		B088C13587B2C784176EC5D1 /* MainModuleViewProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24BD3C04407321F4A36A71E0 /* MainModuleViewProtocol.swift */; };
+		BAFD907E40483FF47A48025B /* marsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9CFC9A27D6274E5044E1693A /* marsViewController.xib */; };
+		C01F26C3A3E2A8F48B17D5B4 /* MainModuleInteractorProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5B7C07544B92CB929756014 /* MainModuleInteractorProtocol.swift */; };
+		C0BF5CB58E7B6C5F471C9840 /* marsPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6CD7107D7937E4A84647472 /* marsPresenter.swift */; };
+		C64E1CBEF4E0DA9946ED9038 /* EarthViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BE3FC6879E414958C56D7C0D /* EarthViewController.xib */; };
+		CE15B41D25F3B1E000910A58 /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE15B41B25F3B1E000910A58 /* TableViewCell.swift */; };
+		CE15B41E25F3B1E000910A58 /* TableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = CE15B41C25F3B1E000910A58 /* TableViewCell.xib */; };
+		CE15B42325F3EEEC00910A58 /* DeletedManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE15B42225F3EEEC00910A58 /* DeletedManager.swift */; };
+		CE15B42725F3EFC600910A58 /* AlertManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE15B42625F3EFC600910A58 /* AlertManager.swift */; };
+		CE15B42C25F3FAA000910A58 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE15B42B25F3FAA000910A58 /* Constants.swift */; };
+		CE15B43125F41DE800910A58 /* swiftgen.yml in Resources */ = {isa = PBXBuildFile; fileRef = CE15B43025F41DE800910A58 /* swiftgen.yml */; };
+		CE15B43E25F4261800910A58 /* Assets.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE15B43C25F4261800910A58 /* Assets.swift */; };
+		CE15B43F25F4261800910A58 /* Strings.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE15B43D25F4261800910A58 /* Strings.swift */; };
+		CE15B44625F427CE00910A58 /* LocalizebleStrings.strings in Resources */ = {isa = PBXBuildFile; fileRef = CE15B44525F427CE00910A58 /* LocalizebleStrings.strings */; };
+		CE9A30DF25F6453100934F68 /* Button.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE9A30DE25F6453100934F68 /* Button.swift */; };
+		CE9A310225F6B39900934F68 /* imageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE9A310125F6B39900934F68 /* imageView.swift */; };
+		CE9A311025F747A800934F68 /* SimpleImageViewer.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE9A310F25F747A800934F68 /* SimpleImageViewer.swift */; };
+		CE9A311625F7887300934F68 /* ActivityController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE9A311525F7887300934F68 /* ActivityController.swift */; };
+		CED25FB725F22D7D0010B7E3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CED25FB625F22D7D0010B7E3 /* AppDelegate.swift */; };
+		CED25FC125F22D7D0010B7E3 /* TestMarsSwinJectProject.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = CED25FBF25F22D7D0010B7E3 /* TestMarsSwinJectProject.xcdatamodeld */; };
+		CED25FC325F22D800010B7E3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CED25FC225F22D800010B7E3 /* Assets.xcassets */; };
+		CED25FC625F22D800010B7E3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CED25FC425F22D800010B7E3 /* LaunchScreen.storyboard */; };
+		CED25FE325F22FD60010B7E3 /* FactoryContainers.swift in Sources */ = {isa = PBXBuildFile; fileRef = CED25FE125F22FD60010B7E3 /* FactoryContainers.swift */; };
+		CED25FE425F22FD60010B7E3 /* ContainerBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = CED25FE225F22FD60010B7E3 /* ContainerBuilder.swift */; };
+		CED25FE825F230530010B7E3 /* MainStart.swift in Sources */ = {isa = PBXBuildFile; fileRef = CED25FE725F230530010B7E3 /* MainStart.swift */; };
+		CED25FED25F230D80010B7E3 /* ConfiguratorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CED25FEC25F230D80010B7E3 /* ConfiguratorView.swift */; };
+		CED25FF025F231CC0010B7E3 /* Coordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = CED25FEF25F231CC0010B7E3 /* Coordinator.swift */; };
+		CED25FF725F2402B0010B7E3 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = CED25FF625F2402B0010B7E3 /* NetworkManager.swift */; };
+		CED25FFB25F240B70010B7E3 /* ResponceModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = CED25FFA25F240B70010B7E3 /* ResponceModels.swift */; };
+		CED2600225F240FF0010B7E3 /* ParseManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = CED2600125F240FF0010B7E3 /* ParseManager.swift */; };
+		CED2600725F241670010B7E3 /* ServiceContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = CED2600625F241670010B7E3 /* ServiceContainer.swift */; };
+		CED2600B25F241A30010B7E3 /* CoreDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = CED2600A25F241A30010B7E3 /* CoreDataManager.swift */; };
+		D6AF60589D3DF16FBD88DBB2 /* marsViewProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3B77B70C2B85070165066C1 /* marsViewProtocol.swift */; };
+		DF022DC03A5840E742C1EC3F /* marsInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBF3CCF3242D6D448614D3BB /* marsInteractor.swift */; };
+		E43F3EBADD5242E73472B14C /* marsConfigurator.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED571E3E06EBFA3A5C203385 /* marsConfigurator.swift */; };
+		E62B311803949C88776498C6 /* EarthInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97E27116D4693F12F19834ED /* EarthInteractor.swift */; };
+		EC0A678E8A474C5D1A85E23D /* EarthPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBCCF52D6F190DB4752804C5 /* EarthPresenter.swift */; };
+		F191B8AD3BC61E418BCB4101 /* marsPresenterProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41B13620FE52684DF7B06013 /* marsPresenterProtocol.swift */; };
+		F204B985342BB26387BD94F8 /* MainModuleRouterProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51E6400545FEBBA8DF285CD7 /* MainModuleRouterProtocol.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		028CD950BE4E3BDFEB1B3596 /* EarthRouter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = EarthRouter.swift; sourceTree = "<group>"; };
+		0B0F455A4556D391F07A6B29 /* Pods_TestMarsSwinJectProject.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TestMarsSwinJectProject.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		10F7C071C3BADF0CC3D818D5 /* marsRouter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = marsRouter.swift; sourceTree = "<group>"; };
+		114792939983C45A8E8FF60C /* MainModuleConfigurator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = MainModuleConfigurator.swift; sourceTree = "<group>"; };
+		24BD3C04407321F4A36A71E0 /* MainModuleViewProtocol.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = MainModuleViewProtocol.swift; sourceTree = "<group>"; };
+		3B65A2DEF3EE552F0D318973 /* MainModuleViewController.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; path = MainModuleViewController.xib; sourceTree = "<group>"; };
+		41B13620FE52684DF7B06013 /* marsPresenterProtocol.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = marsPresenterProtocol.swift; sourceTree = "<group>"; };
+		46B88893E1AAF9521CDB8DC3 /* MainModuleRouter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = MainModuleRouter.swift; sourceTree = "<group>"; };
+		4F22BBED9FE857BFAF4D8C6F /* Pods-TestMarsSwinJectProject.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TestMarsSwinJectProject.release.xcconfig"; path = "Target Support Files/Pods-TestMarsSwinJectProject/Pods-TestMarsSwinJectProject.release.xcconfig"; sourceTree = "<group>"; };
+		51E6400545FEBBA8DF285CD7 /* MainModuleRouterProtocol.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = MainModuleRouterProtocol.swift; sourceTree = "<group>"; };
+		81FACD80C2EFABECB5453254 /* EarthPresenterProtocol.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = EarthPresenterProtocol.swift; sourceTree = "<group>"; };
+		938BE43FCBD3B00EF73974A4 /* Pods-TestMarsSwinJectProject.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TestMarsSwinJectProject.debug.xcconfig"; path = "Target Support Files/Pods-TestMarsSwinJectProject/Pods-TestMarsSwinJectProject.debug.xcconfig"; sourceTree = "<group>"; };
+		944EA70B19240A691B409D3F /* MainModuleInteractor.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = MainModuleInteractor.swift; sourceTree = "<group>"; };
+		960F36F270AA050E83F9AC30 /* marsRouterProtocol.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = marsRouterProtocol.swift; sourceTree = "<group>"; };
+		97E27116D4693F12F19834ED /* EarthInteractor.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = EarthInteractor.swift; sourceTree = "<group>"; };
+		9CFC9A27D6274E5044E1693A /* marsViewController.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; path = marsViewController.xib; sourceTree = "<group>"; };
+		A5EBB601502A4CB7BA2C4D59 /* EarthViewProtocol.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = EarthViewProtocol.swift; sourceTree = "<group>"; };
+		A9CD2A2AA658CCFF0961F4D9 /* EarthRouterProtocol.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = EarthRouterProtocol.swift; sourceTree = "<group>"; };
+		AD793015B3BB6236E0166D8F /* EarthViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = EarthViewController.swift; sourceTree = "<group>"; };
+		B581B77AAC61F914949470B4 /* marsViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = marsViewController.swift; sourceTree = "<group>"; };
+		B5B7C07544B92CB929756014 /* MainModuleInteractorProtocol.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = MainModuleInteractorProtocol.swift; sourceTree = "<group>"; };
+		B6CD7107D7937E4A84647472 /* marsPresenter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = marsPresenter.swift; sourceTree = "<group>"; };
+		BE3FC6879E414958C56D7C0D /* EarthViewController.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; path = EarthViewController.xib; sourceTree = "<group>"; };
+		C429B3EF8BFFED69CDC2A893 /* EarthInteractorProtocol.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = EarthInteractorProtocol.swift; sourceTree = "<group>"; };
+		C5512A7B9BC6CBAADA007440 /* marsInteractorProtocol.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = marsInteractorProtocol.swift; sourceTree = "<group>"; };
+		CBAE1C957FDCCF1EF2883598 /* MainModuleViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = MainModuleViewController.swift; sourceTree = "<group>"; };
+		CBF3CCF3242D6D448614D3BB /* marsInteractor.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = marsInteractor.swift; sourceTree = "<group>"; };
+		CE15B41B25F3B1E000910A58 /* TableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
+		CE15B41C25F3B1E000910A58 /* TableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TableViewCell.xib; sourceTree = "<group>"; };
+		CE15B42225F3EEEC00910A58 /* DeletedManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeletedManager.swift; sourceTree = "<group>"; };
+		CE15B42625F3EFC600910A58 /* AlertManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertManager.swift; sourceTree = "<group>"; };
+		CE15B42B25F3FAA000910A58 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		CE15B43025F41DE800910A58 /* swiftgen.yml */ = {isa = PBXFileReference; lastKnownFileType = text.yaml; path = swiftgen.yml; sourceTree = "<group>"; };
+		CE15B43C25F4261800910A58 /* Assets.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Assets.swift; sourceTree = "<group>"; };
+		CE15B43D25F4261800910A58 /* Strings.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Strings.swift; sourceTree = "<group>"; };
+		CE15B44525F427CE00910A58 /* LocalizebleStrings.strings */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = LocalizebleStrings.strings; path = TestMarsSwinJectProject/Source/LocalizebleStrings.strings; sourceTree = SOURCE_ROOT; };
+		CE9A30DE25F6453100934F68 /* Button.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Button.swift; sourceTree = "<group>"; };
+		CE9A310125F6B39900934F68 /* imageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = imageView.swift; sourceTree = "<group>"; };
+		CE9A310F25F747A800934F68 /* SimpleImageViewer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpleImageViewer.swift; sourceTree = "<group>"; };
+		CE9A311525F7887300934F68 /* ActivityController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityController.swift; sourceTree = "<group>"; };
+		CED25FB325F22D7D0010B7E3 /* TestMarsSwinJectProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TestMarsSwinJectProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CED25FB625F22D7D0010B7E3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CED25FC025F22D7D0010B7E3 /* TestMarsSwinJectProject.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = TestMarsSwinJectProject.xcdatamodel; sourceTree = "<group>"; };
+		CED25FC225F22D800010B7E3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CED25FC525F22D800010B7E3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CED25FC725F22D800010B7E3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CED25FE125F22FD60010B7E3 /* FactoryContainers.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FactoryContainers.swift; sourceTree = "<group>"; };
+		CED25FE225F22FD60010B7E3 /* ContainerBuilder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContainerBuilder.swift; sourceTree = "<group>"; };
+		CED25FE725F230530010B7E3 /* MainStart.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainStart.swift; sourceTree = "<group>"; };
+		CED25FEC25F230D80010B7E3 /* ConfiguratorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConfiguratorView.swift; sourceTree = "<group>"; };
+		CED25FEF25F231CC0010B7E3 /* Coordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coordinator.swift; sourceTree = "<group>"; };
+		CED25FF625F2402B0010B7E3 /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		CED25FFA25F240B70010B7E3 /* ResponceModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResponceModels.swift; sourceTree = "<group>"; };
+		CED2600125F240FF0010B7E3 /* ParseManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParseManager.swift; sourceTree = "<group>"; };
+		CED2600625F241670010B7E3 /* ServiceContainer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServiceContainer.swift; sourceTree = "<group>"; };
+		CED2600A25F241A30010B7E3 /* CoreDataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataManager.swift; sourceTree = "<group>"; };
+		DB9F25D5B68E920DEFBD2969 /* MainModulePresenter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = MainModulePresenter.swift; sourceTree = "<group>"; };
+		DBCCF52D6F190DB4752804C5 /* EarthPresenter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = EarthPresenter.swift; sourceTree = "<group>"; };
+		E900075633DD936B545F5702 /* EarthConfigurator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = EarthConfigurator.swift; sourceTree = "<group>"; };
+		EC9DB6F2B7A3E479CFAD6480 /* MainModulePresenterProtocol.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = MainModulePresenterProtocol.swift; sourceTree = "<group>"; };
+		ED571E3E06EBFA3A5C203385 /* marsConfigurator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = marsConfigurator.swift; sourceTree = "<group>"; };
+		F3B77B70C2B85070165066C1 /* marsViewProtocol.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = marsViewProtocol.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CED25FB025F22D7D0010B7E3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1299AD020B47B980545C33B6 /* Pods_TestMarsSwinJectProject.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		092493153E75F4D5ED8AF09A /* Router */ = {
+			isa = PBXGroup;
+			children = (
+				A9CD2A2AA658CCFF0961F4D9 /* EarthRouterProtocol.swift */,
+				028CD950BE4E3BDFEB1B3596 /* EarthRouter.swift */,
+			);
+			path = Router;
+			sourceTree = "<group>";
+		};
+		0BE08B90D35CE0CEC8209AA3 /* Interactor */ = {
+			isa = PBXGroup;
+			children = (
+				C429B3EF8BFFED69CDC2A893 /* EarthInteractorProtocol.swift */,
+				97E27116D4693F12F19834ED /* EarthInteractor.swift */,
+			);
+			path = Interactor;
+			sourceTree = "<group>";
+		};
+		0E3C089C14E80133B46868BC /* MainModule */ = {
+			isa = PBXGroup;
+			children = (
+				4CE528909D18610FEF84CE18 /* View */,
+				9842ECE31A3AC6FBAC237618 /* Presenter */,
+				ECB3112348769F6B1C782C71 /* Interactor */,
+				D598432CE54065E75684E5AA /* Router */,
+				67D329A8C1AD0D235AD82A9A /* Configurator */,
+			);
+			path = MainModule;
+			sourceTree = "<group>";
+		};
+		0FC1B9331BA778237E26D40B /* Configurator */ = {
+			isa = PBXGroup;
+			children = (
+				ED571E3E06EBFA3A5C203385 /* marsConfigurator.swift */,
+			);
+			path = Configurator;
+			sourceTree = "<group>";
+		};
+		29EFCF2DA099B59D3C72B20A /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				81FACD80C2EFABECB5453254 /* EarthPresenterProtocol.swift */,
+				DBCCF52D6F190DB4752804C5 /* EarthPresenter.swift */,
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
+		49E597F642095CBBB2E5BD7F /* mars */ = {
+			isa = PBXGroup;
+			children = (
+				CE15B41A25F3B1CA00910A58 /* Cell */,
+				A23FEB42B7FE1FBB94C823E2 /* View */,
+				EE033ED22B2E4B264D4F028B /* Presenter */,
+				4A0DCBACF4AF4BA844E9591A /* Interactor */,
+				C36DD0C050CBF35B54ED71B6 /* Router */,
+				0FC1B9331BA778237E26D40B /* Configurator */,
+			);
+			path = mars;
+			sourceTree = "<group>";
+		};
+		4A0DCBACF4AF4BA844E9591A /* Interactor */ = {
+			isa = PBXGroup;
+			children = (
+				C5512A7B9BC6CBAADA007440 /* marsInteractorProtocol.swift */,
+				CBF3CCF3242D6D448614D3BB /* marsInteractor.swift */,
+			);
+			path = Interactor;
+			sourceTree = "<group>";
+		};
+		4CE528909D18610FEF84CE18 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				24BD3C04407321F4A36A71E0 /* MainModuleViewProtocol.swift */,
+				CBAE1C957FDCCF1EF2883598 /* MainModuleViewController.swift */,
+				3B65A2DEF3EE552F0D318973 /* MainModuleViewController.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		59FC6DE831B47E3F59979834 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				938BE43FCBD3B00EF73974A4 /* Pods-TestMarsSwinJectProject.debug.xcconfig */,
+				4F22BBED9FE857BFAF4D8C6F /* Pods-TestMarsSwinJectProject.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		67D329A8C1AD0D235AD82A9A /* Configurator */ = {
+			isa = PBXGroup;
+			children = (
+				114792939983C45A8E8FF60C /* MainModuleConfigurator.swift */,
+			);
+			path = Configurator;
+			sourceTree = "<group>";
+		};
+		9842ECE31A3AC6FBAC237618 /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				EC9DB6F2B7A3E479CFAD6480 /* MainModulePresenterProtocol.swift */,
+				DB9F25D5B68E920DEFBD2969 /* MainModulePresenter.swift */,
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
+		A23FEB42B7FE1FBB94C823E2 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				F3B77B70C2B85070165066C1 /* marsViewProtocol.swift */,
+				B581B77AAC61F914949470B4 /* marsViewController.swift */,
+				9CFC9A27D6274E5044E1693A /* marsViewController.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		AE72C461C448923ED2C114D5 /* AppLayer */ = {
+			isa = PBXGroup;
+			children = (
+				49E597F642095CBBB2E5BD7F /* mars */,
+				E2428046FF04FA3E0C24C06D /* Earth */,
+				0E3C089C14E80133B46868BC /* MainModule */,
+			);
+			path = AppLayer;
+			sourceTree = "<group>";
+		};
+		B4D73F07CD6C76A50A23F7A9 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				A5EBB601502A4CB7BA2C4D59 /* EarthViewProtocol.swift */,
+				AD793015B3BB6236E0166D8F /* EarthViewController.swift */,
+				BE3FC6879E414958C56D7C0D /* EarthViewController.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		B6C6C39C54C0E2AFA681161C /* Configurator */ = {
+			isa = PBXGroup;
+			children = (
+				E900075633DD936B545F5702 /* EarthConfigurator.swift */,
+			);
+			path = Configurator;
+			sourceTree = "<group>";
+		};
+		C36DD0C050CBF35B54ED71B6 /* Router */ = {
+			isa = PBXGroup;
+			children = (
+				960F36F270AA050E83F9AC30 /* marsRouterProtocol.swift */,
+				10F7C071C3BADF0CC3D818D5 /* marsRouter.swift */,
+			);
+			path = Router;
+			sourceTree = "<group>";
+		};
+		CE15B41A25F3B1CA00910A58 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				CE15B41B25F3B1E000910A58 /* TableViewCell.swift */,
+				CE15B41C25F3B1E000910A58 /* TableViewCell.xib */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		CE15B42125F3EED500910A58 /* DeletedManager */ = {
+			isa = PBXGroup;
+			children = (
+				CE15B42225F3EEEC00910A58 /* DeletedManager.swift */,
+				CE15B42625F3EFC600910A58 /* AlertManager.swift */,
+			);
+			path = DeletedManager;
+			sourceTree = "<group>";
+		};
+		CE15B42A25F3FA9200910A58 /* Constants */ = {
+			isa = PBXGroup;
+			children = (
+				CE15B42B25F3FAA000910A58 /* Constants.swift */,
+			);
+			path = Constants;
+			sourceTree = "<group>";
+		};
+		CE15B43325F41E9200910A58 /* SwiftGen */ = {
+			isa = PBXGroup;
+			children = (
+				CE15B43C25F4261800910A58 /* Assets.swift */,
+				CE15B43D25F4261800910A58 /* Strings.swift */,
+				CE15B44525F427CE00910A58 /* LocalizebleStrings.strings */,
+			);
+			path = SwiftGen;
+			sourceTree = "<group>";
+		};
+		CE9A30DD25F6451100934F68 /* UIElements */ = {
+			isa = PBXGroup;
+			children = (
+				CE9A30DE25F6453100934F68 /* Button.swift */,
+				CE9A310125F6B39900934F68 /* imageView.swift */,
+				CE9A311525F7887300934F68 /* ActivityController.swift */,
+			);
+			path = UIElements;
+			sourceTree = "<group>";
+		};
+		CE9A310E25F7479400934F68 /* SimpleImageViewer */ = {
+			isa = PBXGroup;
+			children = (
+				CE9A310F25F747A800934F68 /* SimpleImageViewer.swift */,
+			);
+			path = SimpleImageViewer;
+			sourceTree = "<group>";
+		};
+		CED25FAA25F22D7D0010B7E3 = {
+			isa = PBXGroup;
+			children = (
+				CE15B43025F41DE800910A58 /* swiftgen.yml */,
+				CED25FB525F22D7D0010B7E3 /* TestMarsSwinJectProject */,
+				CED25FB425F22D7D0010B7E3 /* Products */,
+				59FC6DE831B47E3F59979834 /* Pods */,
+				D73949803ACC904BB5DB948B /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		CED25FB425F22D7D0010B7E3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CED25FB325F22D7D0010B7E3 /* TestMarsSwinJectProject.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CED25FB525F22D7D0010B7E3 /* TestMarsSwinJectProject */ = {
+			isa = PBXGroup;
+			children = (
+				CE15B43325F41E9200910A58 /* SwiftGen */,
+				CED25FF325F23FD80010B7E3 /* Source */,
+				CED25FE625F230410010B7E3 /* StartModule */,
+				CED25FF225F23ED40010B7E3 /* AppDelegate */,
+				AE72C461C448923ED2C114D5 /* AppLayer */,
+				CED25FF425F23FF50010B7E3 /* Network */,
+				CED25FF525F240130010B7E3 /* CoreData */,
+				CED25FC725F22D800010B7E3 /* Info.plist */,
+			);
+			path = TestMarsSwinJectProject;
+			sourceTree = "<group>";
+		};
+		CED25FDF25F22FAF0010B7E3 /* CommonFactories */ = {
+			isa = PBXGroup;
+			children = (
+				CED25FE225F22FD60010B7E3 /* ContainerBuilder.swift */,
+				CED25FE125F22FD60010B7E3 /* FactoryContainers.swift */,
+				CED2600625F241670010B7E3 /* ServiceContainer.swift */,
+			);
+			path = CommonFactories;
+			sourceTree = "<group>";
+		};
+		CED25FE625F230410010B7E3 /* StartModule */ = {
+			isa = PBXGroup;
+			children = (
+				CED25FE725F230530010B7E3 /* MainStart.swift */,
+				CED25FEB25F230CB0010B7E3 /* Coordinator */,
+				CED25FDF25F22FAF0010B7E3 /* CommonFactories */,
+			);
+			path = StartModule;
+			sourceTree = "<group>";
+		};
+		CED25FEB25F230CB0010B7E3 /* Coordinator */ = {
+			isa = PBXGroup;
+			children = (
+				CED25FEC25F230D80010B7E3 /* ConfiguratorView.swift */,
+				CED25FEF25F231CC0010B7E3 /* Coordinator.swift */,
+			);
+			path = Coordinator;
+			sourceTree = "<group>";
+		};
+		CED25FF225F23ED40010B7E3 /* AppDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				CED25FB625F22D7D0010B7E3 /* AppDelegate.swift */,
+			);
+			path = AppDelegate;
+			sourceTree = "<group>";
+		};
+		CED25FF325F23FD80010B7E3 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				CE9A310E25F7479400934F68 /* SimpleImageViewer */,
+				CE9A30DD25F6451100934F68 /* UIElements */,
+				CE15B42A25F3FA9200910A58 /* Constants */,
+				CED25FC225F22D800010B7E3 /* Assets.xcassets */,
+				CED25FC425F22D800010B7E3 /* LaunchScreen.storyboard */,
+			);
+			path = Source;
+			sourceTree = "<group>";
+		};
+		CED25FF425F23FF50010B7E3 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				CED25FF625F2402B0010B7E3 /* NetworkManager.swift */,
+				CED25FFA25F240B70010B7E3 /* ResponceModels.swift */,
+				CED2600125F240FF0010B7E3 /* ParseManager.swift */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		CED25FF525F240130010B7E3 /* CoreData */ = {
+			isa = PBXGroup;
+			children = (
+				CE15B42125F3EED500910A58 /* DeletedManager */,
+				CED25FBF25F22D7D0010B7E3 /* TestMarsSwinJectProject.xcdatamodeld */,
+				CED2600A25F241A30010B7E3 /* CoreDataManager.swift */,
+			);
+			path = CoreData;
+			sourceTree = "<group>";
+		};
+		D598432CE54065E75684E5AA /* Router */ = {
+			isa = PBXGroup;
+			children = (
+				51E6400545FEBBA8DF285CD7 /* MainModuleRouterProtocol.swift */,
+				46B88893E1AAF9521CDB8DC3 /* MainModuleRouter.swift */,
+			);
+			path = Router;
+			sourceTree = "<group>";
+		};
+		D73949803ACC904BB5DB948B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0B0F455A4556D391F07A6B29 /* Pods_TestMarsSwinJectProject.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E2428046FF04FA3E0C24C06D /* Earth */ = {
+			isa = PBXGroup;
+			children = (
+				B4D73F07CD6C76A50A23F7A9 /* View */,
+				29EFCF2DA099B59D3C72B20A /* Presenter */,
+				0BE08B90D35CE0CEC8209AA3 /* Interactor */,
+				092493153E75F4D5ED8AF09A /* Router */,
+				B6C6C39C54C0E2AFA681161C /* Configurator */,
+			);
+			path = Earth;
+			sourceTree = "<group>";
+		};
+		ECB3112348769F6B1C782C71 /* Interactor */ = {
+			isa = PBXGroup;
+			children = (
+				B5B7C07544B92CB929756014 /* MainModuleInteractorProtocol.swift */,
+				944EA70B19240A691B409D3F /* MainModuleInteractor.swift */,
+			);
+			path = Interactor;
+			sourceTree = "<group>";
+		};
+		EE033ED22B2E4B264D4F028B /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				41B13620FE52684DF7B06013 /* marsPresenterProtocol.swift */,
+				B6CD7107D7937E4A84647472 /* marsPresenter.swift */,
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CED25FB225F22D7D0010B7E3 /* TestMarsSwinJectProject */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CED25FCA25F22D800010B7E3 /* Build configuration list for PBXNativeTarget "TestMarsSwinJectProject" */;
+			buildPhases = (
+				0A91D26A27C0E95499C33950 /* [CP] Check Pods Manifest.lock */,
+				CED25FAF25F22D7D0010B7E3 /* Sources */,
+				CED25FB025F22D7D0010B7E3 /* Frameworks */,
+				CED25FB125F22D7D0010B7E3 /* Resources */,
+				C727CFA287000D588C900FAD /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TestMarsSwinJectProject;
+			productName = TestMarsSwinJectProject;
+			productReference = CED25FB325F22D7D0010B7E3 /* TestMarsSwinJectProject.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CED25FAB25F22D7D0010B7E3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+				TargetAttributes = {
+					CED25FB225F22D7D0010B7E3 = {
+						CreatedOnToolsVersion = 12.4;
+					};
+				};
+			};
+			buildConfigurationList = CED25FAE25F22D7D0010B7E3 /* Build configuration list for PBXProject "TestMarsSwinJectProject" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CED25FAA25F22D7D0010B7E3;
+			productRefGroup = CED25FB425F22D7D0010B7E3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CED25FB225F22D7D0010B7E3 /* TestMarsSwinJectProject */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CED25FB125F22D7D0010B7E3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CED25FC625F22D800010B7E3 /* LaunchScreen.storyboard in Resources */,
+				CE15B41E25F3B1E000910A58 /* TableViewCell.xib in Resources */,
+				CED25FC325F22D800010B7E3 /* Assets.xcassets in Resources */,
+				BAFD907E40483FF47A48025B /* marsViewController.xib in Resources */,
+				CE15B44625F427CE00910A58 /* LocalizebleStrings.strings in Resources */,
+				CE15B43125F41DE800910A58 /* swiftgen.yml in Resources */,
+				C64E1CBEF4E0DA9946ED9038 /* EarthViewController.xib in Resources */,
+				4C17070C8E559C655F4FFF3C /* MainModuleViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0A91D26A27C0E95499C33950 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TestMarsSwinJectProject-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C727CFA287000D588C900FAD /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TestMarsSwinJectProject/Pods-TestMarsSwinJectProject-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TestMarsSwinJectProject/Pods-TestMarsSwinJectProject-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-TestMarsSwinJectProject/Pods-TestMarsSwinJectProject-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CED25FAF25F22D7D0010B7E3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE15B42C25F3FAA000910A58 /* Constants.swift in Sources */,
+				CE9A30DF25F6453100934F68 /* Button.swift in Sources */,
+				CED25FF025F231CC0010B7E3 /* Coordinator.swift in Sources */,
+				CED25FC125F22D7D0010B7E3 /* TestMarsSwinJectProject.xcdatamodeld in Sources */,
+				CED25FB725F22D7D0010B7E3 /* AppDelegate.swift in Sources */,
+				D6AF60589D3DF16FBD88DBB2 /* marsViewProtocol.swift in Sources */,
+				8BF3A6F57D54094FDD85DF6E /* marsViewController.swift in Sources */,
+				CED25FED25F230D80010B7E3 /* ConfiguratorView.swift in Sources */,
+				F191B8AD3BC61E418BCB4101 /* marsPresenterProtocol.swift in Sources */,
+				CE9A311625F7887300934F68 /* ActivityController.swift in Sources */,
+				CE15B43E25F4261800910A58 /* Assets.swift in Sources */,
+				C0BF5CB58E7B6C5F471C9840 /* marsPresenter.swift in Sources */,
+				CE15B43F25F4261800910A58 /* Strings.swift in Sources */,
+				CE15B42725F3EFC600910A58 /* AlertManager.swift in Sources */,
+				CED25FE425F22FD60010B7E3 /* ContainerBuilder.swift in Sources */,
+				CED2600725F241670010B7E3 /* ServiceContainer.swift in Sources */,
+				CED25FE825F230530010B7E3 /* MainStart.swift in Sources */,
+				CED2600225F240FF0010B7E3 /* ParseManager.swift in Sources */,
+				CED2600B25F241A30010B7E3 /* CoreDataManager.swift in Sources */,
+				CED25FF725F2402B0010B7E3 /* NetworkManager.swift in Sources */,
+				78FC16F27C6A76FFFAA7C07F /* marsInteractorProtocol.swift in Sources */,
+				CE15B42325F3EEEC00910A58 /* DeletedManager.swift in Sources */,
+				DF022DC03A5840E742C1EC3F /* marsInteractor.swift in Sources */,
+				CE9A310225F6B39900934F68 /* imageView.swift in Sources */,
+				CED25FE325F22FD60010B7E3 /* FactoryContainers.swift in Sources */,
+				CE15B41D25F3B1E000910A58 /* TableViewCell.swift in Sources */,
+				5089DAA67AE978DA487D9943 /* marsRouterProtocol.swift in Sources */,
+				3DF1274241D27B8B8CA10132 /* marsRouter.swift in Sources */,
+				CED25FFB25F240B70010B7E3 /* ResponceModels.swift in Sources */,
+				E43F3EBADD5242E73472B14C /* marsConfigurator.swift in Sources */,
+				49207FD9A2A143DF19A8E342 /* EarthViewProtocol.swift in Sources */,
+				7CF5D1C13F14EBB5E5F17D50 /* EarthViewController.swift in Sources */,
+				37288C78C7DDBDD09DAEE3D4 /* EarthPresenterProtocol.swift in Sources */,
+				EC0A678E8A474C5D1A85E23D /* EarthPresenter.swift in Sources */,
+				53C0CB6BB04EEAF4D1CA7586 /* EarthInteractorProtocol.swift in Sources */,
+				E62B311803949C88776498C6 /* EarthInteractor.swift in Sources */,
+				CE9A311025F747A800934F68 /* SimpleImageViewer.swift in Sources */,
+				1DA8A11C3DC66C80F4726312 /* EarthRouterProtocol.swift in Sources */,
+				167F329618160FE88B9F0A66 /* EarthRouter.swift in Sources */,
+				433414EF749371D834271E60 /* EarthConfigurator.swift in Sources */,
+				B088C13587B2C784176EC5D1 /* MainModuleViewProtocol.swift in Sources */,
+				8B3F78F16C41A069ACB4E6F8 /* MainModuleViewController.swift in Sources */,
+				3DAF35F846E9FEF465D63A2D /* MainModulePresenterProtocol.swift in Sources */,
+				4B93CEC81ADD65426746E549 /* MainModulePresenter.swift in Sources */,
+				C01F26C3A3E2A8F48B17D5B4 /* MainModuleInteractorProtocol.swift in Sources */,
+				AC3C07FDC8FAD9E59B03F362 /* MainModuleInteractor.swift in Sources */,
+				F204B985342BB26387BD94F8 /* MainModuleRouterProtocol.swift in Sources */,
+				3A6E5A52E7D34D9A342B10EA /* MainModuleRouter.swift in Sources */,
+				8F8D06EA1734E95D99F81416 /* MainModuleConfigurator.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		CED25FC425F22D800010B7E3 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CED25FC525F22D800010B7E3 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CED25FC825F22D800010B7E3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CED25FC925F22D800010B7E3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CED25FCB25F22D800010B7E3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 938BE43FCBD3B00EF73974A4 /* Pods-TestMarsSwinJectProject.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 97MWDWS79F;
+				INFOPLIST_FILE = TestMarsSwinJectProject/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ru.mickael.TestMarsSwinJectProject;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CED25FCC25F22D800010B7E3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4F22BBED9FE857BFAF4D8C6F /* Pods-TestMarsSwinJectProject.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 97MWDWS79F;
+				INFOPLIST_FILE = TestMarsSwinJectProject/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ru.mickael.TestMarsSwinJectProject;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CED25FAE25F22D7D0010B7E3 /* Build configuration list for PBXProject "TestMarsSwinJectProject" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CED25FC825F22D800010B7E3 /* Debug */,
+				CED25FC925F22D800010B7E3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CED25FCA25F22D800010B7E3 /* Build configuration list for PBXNativeTarget "TestMarsSwinJectProject" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CED25FCB25F22D800010B7E3 /* Debug */,
+				CED25FCC25F22D800010B7E3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		CED25FBF25F22D7D0010B7E3 /* TestMarsSwinJectProject.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				CED25FC025F22D7D0010B7E3 /* TestMarsSwinJectProject.xcdatamodel */,
+			);
+			currentVersion = CED25FC025F22D7D0010B7E3 /* TestMarsSwinJectProject.xcdatamodel */;
+			path = TestMarsSwinJectProject.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = CED25FAB25F22D7D0010B7E3 /* Project object */;
+}

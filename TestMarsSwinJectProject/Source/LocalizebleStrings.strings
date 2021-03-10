@@ -1,0 +1,15 @@
+/* 
+  LocalizebleStrings.strings
+  TestMarsSwinJectProject
+
+  Created by User on 07.03.2021.
+  
+*/
+"Welcome" = "Welcomesss";
+"deletedWarning" = "Данное изображение будет удаленно";
+"deletedMessage" = "Вы удаляете изображение, далее оно не будет показанно в списке фотографий. Продолжить?";
+"mPhotos" = "MarsPhotos";
+"ePhotos" = "EarthPhotos";
+"CordinatesWarnings" = "Enter Cordinates";
+"CoordinateMessage" = "please enter the latitude and longitude";
+"Error" = "Error was occured";

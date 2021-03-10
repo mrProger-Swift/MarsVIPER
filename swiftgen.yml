@@ -1,0 +1,12 @@
+strings:
+  inputs: TestMarsSwinJectProject/Source
+  outputs:
+    - templateName: structured-swift5
+      output: TestMarsSwinJectProject/SwiftGen/Strings.swift
+xcassets:
+  inputs:
+    - TestMarsSwinJectProject/Source/Assets.xcassets
+
+  outputs:
+    - templateName: swift5
+      output: TestMarsSwinJectProject/SwiftGen/Assets.swift
